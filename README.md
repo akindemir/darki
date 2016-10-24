@@ -1,0 +1,413 @@
+# darki
+Dark-Defender Index
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>DARK</title>
+    <meta name="Author" content="DARK" />
+    <meta name="copyright" content="ExForseti" />
+    <meta name="description" content="HACKED BY DARK" />
+    <meta property="og:image" content="">
+
+
+    <!---///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
+    
+<!-- Start: injected by Adguard -->
+<link rel="stylesheet" type="text/css" href="//local.adguard.com/adguard-ajax-api/injections/adguard-styles.css?ts=20160731092549&generic=1&domain=www.myonlyway.com"/>
+<link rel="stylesheet" type="text/css" href="//local.adguard.com/adguard-ajax-api/injections/adguard-styles.css?ts=20160731092549&offset=0"/>
+<script src="//local.adguard.com/adguard-ajax-api/injections/userscripts/Adguard Assistant Beta?ts=20160731092544" type="text/javascript"></script>
+<script src="//local.adguard.com/adguard-ajax-api/injections/userscripts/Adguard Popup Blocker Beta?ts=20160731092544" type="text/javascript"></script>
+<script src="//local.adguard.com/adguard-ajax-api/injections/userscripts/Web of Trust Beta?ts=20160731092544" type="text/javascript"></script>
+<script src="//local.adguard.com/adguard-ajax-api/injections/adguard-script.js?ts=20160731092616&domain=www.myonlyway.com" type="text/javascript"></script>
+<script type="text/javascript" nonce="b14a991595cc4d0ca7711c64c606ed23">
+(function () {
+    "use strict";
+    try {
+        var a = eval('( {"userAgent":"Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.106 Safari/537.36","blockWebRtc":true,"blockPush":true,"blockLocation":true,"referrer":null} )'), b = function (a) { return "function" == typeof Object.getPrototypeOf ? Object.getPrototypeOf(a) : a.__proto__ }; (function () { a.userAgent && Object.defineProperty(navigator, "userAgent", { get: function () { return a.userAgent } }) })(); (function () {
+            a.blockWebRtc && (window.webkitRTCPeerConnection = void 0, window.mozRTCPeerConnection = void 0, navigator.mozGetUserMedia = void 0, navigator.webkitGetUserMedia = void 0, window.MediaStreamTrack = void 0, window.RTCPeerConnection = function () {
+                this.createDataChannel =
+                function () { }; this.createOffer = function () { }; this.localDescription = { sdp: "" }
+            })
+        })(); (function () { a.referrer && Object.defineProperty(document, "referrer", { get: function () { return a.referrer } }) })(); (function () { a.blockPush && "www.facebook.com" != location.host && (window.PushManager && (b(window.PushManager).subscribe = function () { return { then: function (a) { } } }), window.navigator && window.navigator.push && (b(navigator.push).register = function () { })) })(); (function () {
+            a.blockLocation && window.navigator && window.navigator.geolocation &&
+            (b(window.navigator.geolocation).getCurrentPosition = function (a, c, b) { c && c({ code: 1 }) }, b(window.navigator.geolocation).watchPosition = function (a, b, e) { b && b({ code: 1 }) })
+        })()
+    } catch (d) { console && console.log && console.log("Adguard Stealth mode error: " + d) }
+})();</script>
+
+<!-- End: injected by Adguard -->
+<link rel="shortcut icon" href="assets/images/gt_favicon.png">
+    <link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href='http://fonts.googleapis.com/css?family=Wire+One' rel='stylesheet' type='text/css'>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+    <!---///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
+
+    <script language="javascript">
+        var current_item = 0;
+        var section_hide_time = 1300;
+        var section_show_time = 1300;
+        jQuery(document).ready(function($) {
+            $("a", '.mainmenu').click(function() {
+                if (!$(this).hasClass('active')) {
+                    current_item = this;
+                    $('.section:visible').fadeOut(section_hide_time, function() {
+                        $('a', '.mainmenu').removeClass('active');
+                        $(current_item).addClass('active');
+                        var new_section = $($(current_item).attr('href'));
+                        new_section.fadeIn(section_show_time);
+                    });
+                }
+                return false;
+            });
+        });
+    </script>
+
+    <script language="javascript">
+        document.onmousedown = disableclick;
+        status = "Give Credits bro :)";
+
+        function disableclick(event) {
+            if (event.button == 2) {
+                alert(status);
+                return false;
+            }
+        }
+    </script>
+
+    <style type="text/css">
+        html {
+            background: #505D6E url(https://galeri2.uludagsozluk.com/355/türk-askeri_454000.jpg) no-repeat center center fixed;
+            min-height: 100%;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+        }
+        body {
+			overflow-x: hidden;
+			overflox-y: hidden;
+			background: transparent;
+            min-height: 100%;
+            -webkit-font-smoothing: antialiased;
+            -webkit-overflow-scrolling: touch;
+            line-height: 1.5em;
+            font-size: 14px;
+            font-family: Helvetica, Arial, sans-serif;
+            color: #fff;
+            color: rgba(255, 255, 255, .8);
+            font-weight: normal;
+            -webkit-touch-callout: none;
+            -webkit-user-select: none;
+            -khtml-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+        /********************************************************/
+        
+        .mainmenu {
+            z-index: 999999;
+            width: 100%;
+            padding: 30px 0 0 0;
+        }
+        @media (min-width: 768px) {
+            .mainmenu {
+                position: fixed;
+            }
+        }
+        .navbar-toggle {
+            position: relative;
+            float: left;
+            display: block;
+            padding: 9px 10px;
+            background: rgba(255, 255, 255, 0.2);
+            background-image: none;
+            border: 0 none;
+            top: 0px;
+            -webkit-border-radius: 2px;
+            -moz-border-radius: 2px;
+            border-radius: 2px;
+            outline: 0;
+            opacity: 1;
+            -webkit-transition: all .45s;
+            -moz-transition: all .45s;
+            transition: all .45s;
+            float: left;
+        }
+        .navbar-toggle .icon-bar {
+            display: block;
+            width: 5px;
+            height: 1px;
+            background: #fff;
+        }
+        .navbar-toggle .icon-bar + .icon-bar {
+            margin-top: 4px;
+        }
+        .open .navbar-toggle {
+            top: -70px;
+            opacity: 0;
+        }
+        .mainmenu .dropdown-menu {
+            top: -14em;
+            left: 0px;
+            font-size: 13px;
+            padding: 0;
+            background: none;
+            border: 0 none;
+            border-radius: 2px;
+            -webkit-box-shadow: none;
+            box-shadow: none;
+            display: block;
+            opacity: 0;
+            -webkit-transition: all .45s;
+            -moz-transition: all .45s;
+            transition: all .45s;
+        }
+        .mainmenu .dropdown-menu .active {
+            font-weight: bold;
+        }
+        .mainmenu .open .dropdown-menu {
+            top: 2px;
+            opacity: 1;
+        }
+        .mainmenu .dropdown-menu a {
+            padding: 10px 10px;
+            margin: 0;
+            color: white;
+            text-decoration: none;
+            -webkit-border-radius: 2px;
+            -moz-border-radius: 2px;
+            border-radius: 2px;
+        }
+        .mainmenu .dropdown-menu a:hover {
+            background: rgba(255, 255, 255, .1);
+            color: white;
+            padding: 10px 8px 10px 12px;
+        }
+        /********************************************************/
+        
+        .section {
+            z-index: 1;
+            min-height: 420px;
+            width: 100%;
+            overflow: auto;
+            height: 100%;
+            padding-top: 100px;
+            padding-bottom: 50px;
+            display: none;
+            top: 0;
+        }
+        @media (min-width: 768px) {
+            .section {
+                padding-top: 160px;
+            }
+        }
+        /* Show one of sections */
+        
+        #head {
+            display: block;
+        }
+        a {
+            color: #E7746F;
+        }
+        a:hover {
+            text-decoration: none;
+            color: #999;
+        }
+        .home-overlay {
+			overflow-x: hidden;
+			overflox-y: hidden;
+            background-color: rgba(44, 62, 80, 0.3);
+            background-image: url("http://i63.tinypic.com/n3sxs4.png");
+            background-repeat: repeat;
+            height: 100%;
+            left: 0;
+            position: absolute;
+            top: 0;
+            width: 100%;
+            z-index: 0;
+        }
+		.container {
+			  padding-right: 15px;
+			  padding-left: 15px;
+			  margin-right: auto;
+			  margin-left: auto;
+		}
+    </style>
+	 <style type="text/css">
+
+				.gallery {
+				  width: 640px;
+				  margin: 0 auto;
+				  padding: 5px;
+				  background: transparent;
+				  box-shadow: 0 1px 2px rgba(0,0,0,.3);
+				}
+
+				.gallery > div {
+				  position: relative;
+				  float: left;
+				  padding: 5px;
+				}
+
+				.gallery > div > img {
+				  display: block;
+				  width: 200px;
+				  transition: .1s transform;
+				  transform: translateZ(0); /* hack */
+				}
+
+				.gallery > div:hover {
+				  z-index: 1;
+				}
+
+				.gallery > div:hover > img {
+				  transform: scale(1.7,1.7);
+				  transition: .3s transform;
+				}
+
+				.cf:before, .cf:after {
+				  display: table;
+				  content: "";
+				  line-height: 0;
+				}
+
+				.cf:after {
+				  clear: both;
+				}
+
+		</style>
+</head>
+
+
+<body>
+<audio autoplay="true"  src="http://www.munchcatering.net/wp-content/uploads/1day.mp3"> </audio>
+
+ 
+    <div class="home-overlay">
+	
+        <nav class="mainmenu">
+            <center><h4>
+				<a href="#head" class="active">Home | </a>
+                <a href="#about">Quotes |</a>
+                <a href="#themes">Pray |</a>
+                <a href="#contact">Me </a>
+            </center></h4>
+
+        </nav>
+	
+        <section class="section" id="head">
+            <center>
+
+                <font style="font-size:60px;font-family:Iceberg, sans-serif;color:white;text-shadow: 0 0 20px #E7746F, 0px 0px 5px black;"> 
+							<b>HACKED</b><br>
+						</font>
+
+                <font style="font-size:35px;font-family:Iceberg, sans-serif;color:white;text-shadow: 0 0 15px #E7746F, 0px 0px 5px black;"> 
+							<b> <br>by </b><br>
+						</font>
+
+                <font style="font-size:50px;font-family:Iceberg, sans-serif;color:white;text-shadow: 0 0 20px #E7746F, 0px 0px 5px black;"> 
+							<b> <br>Türk Hack Team<br><br> 
+						</font>
+
+                <font style="font-size:20px;font-family:Iceberg, sans-serif;color:white;text-shadow: 0 0 20px #E7746F, 0px 0px 5px black;"> 
+							<a href="https://www.facebook.com/darki90" target="_blank">DARK</a></b><br>
+						</font>
+
+
+
+            </center>
+        </section>
+
+
+
+
+        <section class="section" id="about">
+            <center>
+                <h4 style="color: #E7746F;">Open Your Eyes</h4>
+                <br>
+				<br> ” TURKS CAN BE KILLED,BUT CAN’T BE DEFEATED!”– NAPOLEON BONAPARTE
+				<br> "“LEARN THE TURKISH LANGUAGE,BECAUSE THEY WILL LIVE FOREVER,NEVER TOUCH TURKS UNTIL THEY DON’T TOUCH YOU!”– HZ. MUHAMMED
+                <br> “GOD HAS AN ARMY IN THE EAST CALLED TURKS.WHEN GOD WANTS TO HAVE VENGEANCE,GOD SENDS THEM ON THE ENEMY”– HZ.MUHAMMED
+                <br> “TURKS,AS A NATION AND RACE,ARE THE MOST HONOURABLE PEOPLE ON EARTH”– LAMARTINE
+                <br> “I AM AFRAID TO FORGET MY COUNTRY BETWEEN THESE PEOPLE WITH BIG SOULS. COUNTRY IS SAINT,MUCH SAINT,BUT TURKS SAINT TOO,VERY SAINT” – COMTE DE BONNEVAL
+				<br> “TURKS LOVE REALITY AND FAIRNESS. THEY WERE ALWAYS FAIR BUT THEY MET A LOT OF UNFAIR THINGS AGAINST THEM”– WILLIAM PITT(ENGLISH GOVERNEMENT)
+				<br> “TURKISH SOLDIER IS BRAVE. THEY LOVE THEIR COUNTRY AND CAN DIE FOR IT ANYTIME” – ALBERT EINSTEIN
+				<br> “TURKS HAVE NO FEAR,BUT THEY MAKE FEAR TO OTHERS” – SEMAME IBN-I ESRES
+				<br> “I TALK ABOUT TURKS! WHO LOOK LIKE A UNSTOPPABLE STORM,LIGHTNING AND WAVY SEA WHILE ATTACKING THE ENEMY.” – TASSO (ITALIAN POET)
+				<br> “ TURKS ARE HEROS,NEVER HURT THEIR FRIENDS,BUT THEY BRING BENEFIT.BEING ALLY WITH THIS PEOPLE,CAN MAKE YOU BEAT EVERY DIFFICULTY”– COMENIUS
+
+
+
+            </center>
+        </section>
+
+
+
+        <section class="section" id="themes">
+            <center><h3 style="color: #E7746F;">Open Your Eyes </h3><br>Happy is the one who says, "I'm a Turk". <br><br>
+				The Turkish Republic will be happy, prosperous and victorious. <br>
+			<center>
+				<div class="gallery cf">
+					  <div>
+						<img src="http://secreturkey.com/wp-content/uploads/2016/06/turk-kulturel-ogeleri-6.jpg" height="200px" height="200px" />
+					  </div>
+					  <div>
+						<img src="http://www.marifethaber.com/images/haberler/2015/12/turk_askeri_musul_un_basika_bolgesine_konuslandi_h80589_47c7e.jpg"  height="200px" height="200px" />
+					  </div>
+					  <div>
+						<img src="http://i.hurimg.com/i/hurriyet/90/0x0/55ea814bf018fbb8f8845700.jpg"  height="200px" height="200px" />
+					  </div>
+					  <div>
+						<img src="http://durumsama.com/wp-content/uploads/2013/07/20130714-011752.jpg"  height="200px" height="200px" />
+					  </div>
+					  <div>
+						<img src="http://www.kutahyadorukgazetesi.com/uploads/FCK/1(3).jpg" height="200px" height="200px" />
+					  </div>
+					  <div>
+						<img src="http://www.karenot.com/wp-content/uploads/2015/04/Türk-polisi-logo.jpg" height="200px" height="200px"/>
+					  </div>
+					  <div>
+						<img src="http://gcube.milliyet.com.tr/Detail/2010/04/22/alman-gozunden-turk-insani-dieter-sauter-turkiye-den-insan-manzaralari-1173982.jpg" height="200px" height="200px"/>
+					  </div>
+					  <div>
+						<img src="http://www.yerelgundem.com/uploads/haberler/2012/03/19/2221e0d_o.jpg" height="200px" height="200px"/>
+					  </div>
+					  <div>
+						<img src="http://www.gazetea.com/resim/detay/0/525.jpg" height="200px" height="200px"/>
+					  </div>
+					  
+				</div>
+			
+			<a href="https://en.wikipedia.org/wiki/Turkish_people"> Read </a>
+		</section>
+
+
+
+        <section class="section" id="contact">
+            <center>
+					<font style="font-size:150px;font-family:Iceberg, sans-serif;color:white;text-shadow: 0 0 20px #E7746F, 0px 0px 5px black;"> 
+							<b>DARK</b><br>
+							</font>
+							|| <a href="https://www.facebook.com/darki90"> Page </a> ||<br><br>
+
+						I'm a normal person like you.. lols :) <br><br>
+						
+						~ One person can't change the world but together we can make it a better place ~
+						
+						<br>
+						
+			</center>
+        </section>
+
+    </div>
+</body>
+
+</html>
+
